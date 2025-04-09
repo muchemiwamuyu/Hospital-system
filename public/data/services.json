@@ -1,0 +1,58 @@
+[
+    {
+      "id": "1",
+      "title": "Medical Consultation",
+      "shortDesc": "Get expert medical advice and personalized health solutions.",
+      "details": "Our Medical Consultation service provides expert guidance on various health concerns, diagnosis of medical conditions, and personalized treatment plans. Whether you need routine check-ups, chronic disease management, or urgent medical advice, our experienced doctors are here to help.",
+      "features": [
+        "Comprehensive health assessments",
+        "Diagnosis and treatment recommendations",
+        "Chronic disease management (e.g., diabetes, hypertension)",
+        "Preventive healthcare advice",
+        "Specialist referrals when necessary",
+        "Virtual and in-person consultations available"
+      ],
+      "availability": "Monday - Saturday | 8:00 AM - 6:00 PM",
+      "contact": "For appointments, call +254 700 123 456 or email consult@nova-care.com",
+      "image": "/images/consult.jpg",
+      "image2": "/images/doc.jpg"
+      
+    },
+    {
+      "id": "2",
+      "title": "Surgery & Treatment",
+      "shortDesc": "Advanced surgical procedures with expert care and precision.",
+      "details": "Our Surgery & Treatment services cover a wide range of minor and major surgical procedures performed by experienced surgeons. We prioritize patient safety, post-surgery recovery, and personalized treatment plans to ensure optimal health outcomes.",
+      "features": [
+        "General and specialized surgeries",
+        "Minimally invasive procedures",
+        "Pre-surgical evaluations and consultations",
+        "Post-surgical care and rehabilitation",
+        "Emergency surgical interventions",
+        "Advanced medical equipment and technology"
+      ],
+      "availability": "24/7 Emergency Surgical Services | Scheduled Surgeries: Monday - Friday | 8:00 AM - 4:00 PM",
+      "contact": "For surgery consultations, call +254 700 234 567 or email surgery@nova-care.com",
+      "image": "/images/surgery.jpg",
+      "image2": "/images/surg.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Pharmacy & Medication",
+      "shortDesc": "Quality medications and expert pharmaceutical guidance.",
+      "details": "Our Pharmacy & Medication service ensures that you receive high-quality, safe, and effective medicines prescribed by our healthcare professionals. We offer a wide range of prescription drugs, over-the-counter medications, and expert pharmaceutical consultations.",
+      "features": [
+        "Prescription medication fulfillment",
+        "Over-the-counter drugs and supplements",
+        "Medication counseling and dosage guidance",
+        "Home delivery services for medicines",
+        "Chronic disease medication management",
+        "Vaccines and immunizations available"
+      ],
+      "availability": "Monday - Saturday | 7:00 AM - 8:00 PM",
+      "contact": "For inquiries, call +254 700 345 678 or email pharmacy@nova-care.com",
+      "image": "/images/phamarcy.jpg",
+      "image2": "/images/pharm.jpg"
+    }
+  ]
+  
