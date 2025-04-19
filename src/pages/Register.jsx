@@ -47,7 +47,7 @@ const Register = () => {
   };
 
   return (
-    <div className='h-screen bg-cover bg-center relative group p-4' style={{backgroundImage: "url('/images/reg.jpg')"}}>
+    <div className=' bg-cover bg-center relative group p-4' style={{backgroundImage: "url('/images/reg.jpg')"}}>
       <h2 className='text-2xl text-center font-bold bg-white/50 rounded p-2'>Register</h2>
       <form onSubmit={handleSubmit} className='text-center group bg-white/50 rounded text-black'>
         <div>

@@ -18,6 +18,8 @@ import AdminLayout from './components/AdminLayout'
 import DoctorLayout from './components/DoctorLayout'
 import Patients from './pages/Patients'
 import DoctorNavbar from './components/DoctorNavbar'
+import Encounter from './pages/Encounter'
+import Results from './pages/Results'
 
 function App() {
 
@@ -59,8 +61,8 @@ function App() {
           <Route path="report" element={<Report />} />
         </Route>
 
-         
-
+        <Route path='/encounter/:id' element={<Encounter /> }/>
+        <Route path='results' element={ <Results /> }/>
         <Route path='*' element={<h1>Not Found</h1>} />
       </Routes>
     </>

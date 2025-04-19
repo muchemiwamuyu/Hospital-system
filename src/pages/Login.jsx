@@ -49,11 +49,10 @@ const Login = () => {
   
 
   return (
-    <div className="h-screen bg-[#eeeeff] bg-cover bg-center" style={{backgroundImage: "url('/images/logging.jpg')"}}>
+    <div className="grid">
+      <form onSubmit={handleLogin} className="w-1/2 mx-auto shadow-lg shadow-black rounded text-center space-y-3 md:mt-[10%] p-4">
       <h2 className="text-center font-bold text-black text-3xl bg-white p-3">Login</h2>
-      {error && <p className="error">{error}</p>}
-      <form onSubmit={handleLogin} className="border-2 border-black text-center space-y-3 md:mt-[10%] p-4 bg-white/65">
-        <label>Email:</label>
+        <label>Email</label>
         <br />
         <input
           type="email"
@@ -64,7 +63,7 @@ const Login = () => {
           required
         />
         <br />
-        <label>Password:</label>
+        <label>Password</label>
         <br />
         <input
           type="password"
@@ -75,7 +74,8 @@ const Login = () => {
           required
         />
         <br />
-        <button type="submit" className="px-5 py-3 bg-blue-600 rounded">Login</button>
+        {error && <p className="error">{error}</p>}
+        <button type="submit" className="px-5 py-2 bg-blue-600 rounded">Login</button>
       </form>
     </div>
   );

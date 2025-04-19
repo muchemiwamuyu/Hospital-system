@@ -76,6 +76,7 @@ function Home() {
         <div className='h-screen relative group'>
           <div className=' m-4 rounded-lg shadow-md p-4 shadow-black md:flex justify-between space-y-2'>
             <Typowriter />
+            {/* <div className='hidden md:block card w-42 h-42 bg-gray-600'></div> */}
             <img src="/muhindi.jpg" alt="" className='h-96 rounded' />
             <div className='md:absolute md:mt-[15%] bg-[#eeeeff] rounded shadow-md shadow-black p-4'>
               <div>
@@ -92,7 +93,7 @@ function Home() {
         </div>
 
         {/* about us section */}
-        <div id='about' className=' bg-[#f0ebe3]'>
+        <div id='about' className=''>
           <h2 className='text-3xl text-center font-bold'>About us</h2>
           {/* main-content div */}
           <div className=' bg-[#eeeeff] md:flex md:m-2 md:p-4 items-center'>
